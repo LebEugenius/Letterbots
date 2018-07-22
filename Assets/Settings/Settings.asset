@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8081874603dfad14ab1bb85f6da6375e, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  _aiController:
+    AIKeyValue: 0.5
+    AIDifficultyModifier: 0.1
+    StartSpeed: 1
+  _inputController:
+    KeyCodes: 71000000770000006500000072000000740000007900000075000000690000006f000000700000006100000073000000640000006600000067000000680000006a0000006b0000006c0000007a000000780000006300000076000000620000006e0000006d000000
+    PlayerKeyValue: 1
+  _skirmishSettings:
+    StartingHealth: 10
+  _gameSettings:
+    PrepareTime: 3
+    NewRoundDelay: 1
